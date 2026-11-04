@@ -1,0 +1,6 @@
+scheme: 13x13x13_r1379.npz
+lita_exact original : PASS 0 0 764624
+verify_fmm original : PASS 0 0 764624
+lita_exact corrupted: FAIL 64 0
+verify_fmm corrupted: FAIL 64 0
+agree

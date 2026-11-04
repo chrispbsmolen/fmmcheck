@@ -1,0 +1,4 @@
+{"scheme": "26x26x26_r8051.npz", "entries": 676, "wrong": 0}
+{"scheme": "28x28x28_r9846.npz", "entries": 784, "wrong": 0}
+{"scheme": "30x30x30_r11889.npz", "entries": 900, "wrong": 0}
+{"scheme": "32x32x32_r14196.npz", "entries": 1024, "wrong": 0}

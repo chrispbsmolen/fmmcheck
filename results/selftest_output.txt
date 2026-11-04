@@ -1,0 +1,50 @@
+Part A: constructed schemes
+naive_2x3x4                        expected PASS               wrong 0    missing 0   ok
+strassen                           expected PASS               wrong 0    missing 0   ok
+strassen_x_strassen                expected PASS               wrong 0    missing 0   ok
+strassen_x_naive_1x2x2             expected PASS               wrong 0    missing 0   ok
+strassen_basis_change              expected PASS               wrong 0    missing 0   ok
+strassen2_basis_change             expected PASS               wrong 0    missing 0   ok
+rank_mismatch                      expected PASS_RANK_MISMATCH wrong 0    missing 0   ok
+plus1_first                        expected FAIL               wrong 4    missing 0   ok
+plus1_last_triad                   expected FAIL               wrong 16   missing 0   ok
+plus_P1                            expected FAIL               wrong 4    missing 0   ok
+plus_P1P2                          expected FAIL               wrong 4    missing 0   ok
+plus_1_over_P1                     expected FAIL               wrong 16   missing 0   ok
+dropped_triad                      expected FAIL               wrong 15   missing 1   ok
+empty_triad_added                  expected PASS_RANK_MISMATCH wrong 0    missing 0   ok
+huge_denominator                   expected PASS               wrong 0    missing 0   ok
+newline_inside_tokens              expected PASS               wrong 0    missing 0   ok
+backslash_continuation             expected PASS               wrong 0    missing 0   ok
+parametric_l                       expected PASS (parametric)  ok
+
+Part B: catalogue files
+catalogue_2x4x5                    expected PASS               wrong 0    missing 0   ok
+catalogue_2x4x5_corrupted          expected FAIL               wrong 24   missing 0   ok
+2x3x5                              skipped (parametric)
+catalogue_2x4x7                    expected PASS               wrong 0    missing 0   ok
+catalogue_2x4x7_corrupted          expected FAIL               wrong 6    missing 0   ok
+2x3x10                             skipped (parametric)
+catalogue_2x3x3                    expected PASS               wrong 0    missing 0   ok
+catalogue_2x3x3_corrupted          expected FAIL               wrong 6    missing 0   ok
+catalogue_2x3x4                    expected PASS               wrong 0    missing 0   ok
+catalogue_2x3x4_corrupted          expected FAIL               wrong 4    missing 0   ok
+catalogue_2x3x6                    expected PASS               wrong 0    missing 0   ok
+catalogue_2x3x6_corrupted          expected FAIL               wrong 6    missing 0   ok
+catalogue_2x4x4                    expected PASS               wrong 0    missing 0   ok
+catalogue_2x4x4_corrupted          expected FAIL               wrong 6    missing 0   ok
+catalogue_2x2x2                    expected PASS               wrong 0    missing 0   ok
+catalogue_2x2x2_corrupted          expected FAIL               wrong 4    missing 0   ok
+catalogue_2x3x9                    expected PASS               wrong 0    missing 0   ok
+catalogue_2x3x9_corrupted          expected FAIL               wrong 6    missing 0   ok
+3x3x3                              skipped (parametric)
+catalogue_3x3x6                    expected PASS               wrong 0    missing 0   ok
+catalogue_3x3x6_corrupted          expected FAIL               wrong 81   missing 0   ok
+catalogue_3x3x5                    expected PASS               wrong 0    missing 0   ok
+catalogue_3x3x5_corrupted          expected FAIL               wrong 16   missing 0   ok
+catalogue_2x3x7                    expected PASS               wrong 0    missing 0   ok
+catalogue_2x3x7_corrupted          expected FAIL               wrong 4    missing 0   ok
+catalogue_3x4x5                    expected PASS               wrong 0    missing 0   ok
+catalogue_3x4x5_corrupted          expected FAIL               wrong 8    missing 1   ok
+
+ALL TESTS PASS

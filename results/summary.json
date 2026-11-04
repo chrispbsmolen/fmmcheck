@@ -1,0 +1,105 @@
+{
+ "snapshot": "2026-11-04",
+ "formats": 5222,
+ "run": 5222,
+ "parametric_this_run": 520,
+ "runs": {
+  "this run": 4101,
+  "cloud_2nov": 549,
+  "cloud_3nov": 37,
+  "mac_3nov": 535
+ },
+ "rerun_overlap": 4101,
+ "rerun_disagreements": [],
+ "not_run": 0,
+ "verdicts": {
+  "PASS": 4001,
+  "PASS_RANK_MISMATCH": 1180,
+  "UNPARSED": 35,
+  "FAIL": 6
+ },
+ "mismatch": {
+  "format page empty or gives no rank": 87,
+  "page = front": 195,
+  "page = file": 855,
+  "page differs from both": 43
+ },
+ "file_fewer_triads_than_front": 11,
+ "file_more_triads_than_front": 1169,
+ "no_scheme": {
+  "placeholder (Tensor:=Tensor:, no triads)": 30,
+  "stub (calls ReturnFastMatrixMultiplication, no triads)": 4,
+  "truncated file (text ends inside a matrix)": 1
+ },
+ "fails": [
+  {
+   "format": "8x27x30",
+   "front_page_rank": 3744,
+   "format_page_rank": 3744,
+   "file_triads": 3736,
+   "detail": "28062 wrong, 36 missing",
+   "front_page_source": "( \u27e84\u00d79\u00d710:250\u27e9 - 12) \u2297 \u27e82\u00d73\u00d73:15\u27e9 +6 \u27e84\u00d73\u00d73:29\u27e9",
+   "file_sha256": "e23434231acd3eaeb1fb476f39c4cd8a3f6725e30a65a3e81814d5c3f77f82f5"
+  },
+  {
+   "format": "15x20x26",
+   "front_page_rank": 4464,
+   "format_page_rank": 4464,
+   "file_triads": 4275,
+   "detail": "111480 wrong, 936 missing",
+   "front_page_source": "( \u27e85\u00d75\u00d713:227\u27e9 - 64) \u2297 \u27e83\u00d74\u00d72:20\u27e9 +4 \u27e83\u00d74\u00d76:54\u27e9 +26 \u27e83\u00d74\u00d74:38\u27e9",
+   "file_sha256": "b53b003be1b63e4676da3c532c6e48b3711f7c4ea6e1966d0f0688fcdf3fbd73"
+  },
+  {
+   "format": "26x26x26",
+   "front_page_rank": 8051,
+   "format_page_rank": 8652,
+   "file_triads": 8652,
+   "detail": "302673735 wrong, 0 missing",
+   "front_page_source": "Khoruzhii, Gel\u00df and Pokutta 2026 [\u00a0 GitHub repository \u00a0]",
+   "file_sha256": "9ce92b9a429e945638edb5e8c6cb66428825a667bdd9322482d9f99f755c3e85"
+  },
+  {
+   "format": "28x28x28",
+   "front_page_rank": 9846,
+   "format_page_rank": 10535,
+   "file_triads": 10535,
+   "detail": "472423014 wrong, 0 missing",
+   "front_page_source": "Khoruzhii, Gel\u00df and Pokutta 2026 [\u00a0 GitHub repository \u00a0]",
+   "file_sha256": "b16a5863596fcbedcce21dca37203c6385207c8103227742ac96a4e3f62328ec"
+  },
+  {
+   "format": "30x30x30",
+   "front_page_rank": 11889,
+   "format_page_rank": 12672,
+   "file_triads": 12672,
+   "detail": "715016295 wrong, 0 missing",
+   "front_page_source": "Khoruzhii, Gel\u00df and Pokutta 2026 [\u00a0 GitHub repository \u00a0]",
+   "file_sha256": "129a92dff4d43704a1c6e06a78d234c34728254d0d1c47b2d8af18f0864fa56b"
+  },
+  {
+   "format": "32x32x32",
+   "front_page_rank": 14196,
+   "format_page_rank": 15079,
+   "file_triads": 15079,
+   "detail": "1053562608 wrong, 0 missing",
+   "front_page_source": "Khoruzhii, Gel\u00df and Pokutta 2026 [\u00a0 GitHub repository \u00a0]",
+   "file_sha256": "ab1c61b26217ecdddfe3f5e513700a9538f912518a6bd8ab83a85fdd0a493630"
+  }
+ ],
+ "methods": {
+  "numpy_int64": 4334,
+  "numpy_crt": 473,
+  "none (no scheme)": 35,
+  "dense_int64": 161,
+  "dense_crt": 32,
+  "python_exact": 187
+ },
+ "verifiers_this_run": {
+  "b8a06f0e4a7b5f8f": 3581,
+  "a561edfa10ca8684": 520
+ },
+ "verifier_sha256_now": "a561edfa10ca8684",
+ "verifier_commit": "4ff6620",
+ "seconds_total": 13693
+}

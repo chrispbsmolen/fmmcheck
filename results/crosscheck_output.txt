@@ -1,0 +1,10 @@
+data/tensors/8x27x30_tensor.mpl.bz2 triads 3736 trial 0: 96 of 240 entries of A.B wrong mod 2^61-1
+data/tensors/15x20x26_tensor.mpl.bz2 triads 4275 trial 0: 366 of 390 entries of A.B wrong mod 2^61-1
+data/tensors/26x26x26_tensor.mpl.bz2 triads 8652 trial 0: 676 of 676 entries of A.B wrong mod 2^61-1
+data/tensors/28x28x28_tensor.mpl.bz2 triads 10535 trial 0: 784 of 784 entries of A.B wrong mod 2^61-1
+data/tensors/30x30x30_tensor.mpl.bz2 triads 12672 trial 0: 900 of 900 entries of A.B wrong mod 2^61-1
+data/tensors/32x32x32_tensor.mpl.bz2 triads 15079 trial 0: 1024 of 1024 entries of A.B wrong mod 2^61-1
+data/tensors/12x28x28_tensor.mpl.bz2 triads 5328 trial 0: 0 of 336 entries of A.B wrong mod 2^61-1
+data/fixes/11x25x28_tensor_rebuilt.mpl.bz2 triads 4572 trial 0: 0 of 308 entries of A.B wrong mod 2^61-1
+data/fixes/15x20x26_tensor_rebuilt.mpl.bz2 triads 4466 trial 0: 0 of 390 entries of A.B wrong mod 2^61-1
+data/fixes/8x27x30_tensor_rebuilt.mpl.bz2 triads 3750 trial 0: 0 of 240 entries of A.B wrong mod 2^61-1
